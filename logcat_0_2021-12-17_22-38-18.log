@@ -1,0 +1,200 @@
+2021-12-17 17:38:18	DEBUG	TextNow                       	[LogFileCleaner] Found 3 files in directory: /storage/emulated/0/Android/data/com.enflick.android.TextNow/cache
+2021-12-17 17:38:18	INFO	TextNow                       	[LeanplumVariables] Initializing LP default values
+2021-12-17 17:38:18	DEBUG	TextNow                       	[LeanplumVariables] AppLaunchConfiguration The cache is expired or not available.
+2021-12-17 17:38:18	INFO	TextNow                       	[LeanplumVariables] We're not going to use local storage for LP variables.
+2021-12-17 17:38:18	DEBUG	TextNow                       	[WebInterstitialWithJava] Registering custom template
+2021-12-17 17:38:18	DEBUG	TextNow                       	[AuthorizationActivityViewModel] AuthorizationActivityViewModel#init
+2021-12-17 17:38:19	DEBUG	TextNow                       	[GoogleApiClientManager] GoogleApiClient instance created
+2021-12-17 17:38:19	DEBUG	TextNow                       	[GoogleApiClientManager] Connecting to GoogleApiClient
+2021-12-17 17:38:19	DEBUG	TextNow                       	[ApiUtils] Making request without client_id
+2021-12-17 17:38:19	DEBUG	TextNow                       	[ApiUtils] java.lang.RuntimeException: Call Stack
+2021-12-17 17:38:19	DEBUG	TextNow                       	[ApiUtils] 	at me.textnow.api.rest.ApiUtils.buildQueryString(ApiUtils.kt:7)
+2021-12-17 17:38:19	DEBUG	TextNow                       	[ApiUtils] 	at com.enflick.android.api.common.TNHttpCommand.buildURI(TNHttpCommand.java:10)
+2021-12-17 17:38:19	DEBUG	TextNow                       	[ApiUtils] 	at com.enflick.android.TextNow.httplibrary.AbstractHttpCommand.setUri(AbstractHttpCommand.java:1)
+2021-12-17 17:38:19	DEBUG	TextNow                       	[ApiUtils] 	at com.enflick.android.TextNow.httplibrary.AbstractHttpCommand.onBeforeExecute(AbstractHttpCommand.java:3)
+2021-12-17 17:38:19	DEBUG	TextNow                       	[ApiUtils] 	at com.enflick.android.TextNow.httplibrary.AbstractHttpCommand.run(AbstractHttpCommand.java:1)
+2021-12-17 17:38:19	DEBUG	TextNow                       	[ApiUtils] 	at com.enflick.android.api.common.TNHttpCommand.runSync(TNHttpCommand.java:4)
+2021-12-17 17:38:19	DEBUG	TextNow                       	[ApiUtils] 	at com.enflick.android.api.datasource.LegalAndPrivacyRemoteSourceImpl.requestDeviceLocation(LegalAndPrivacyRemoteSource.kt:2)
+2021-12-17 17:38:19	DEBUG	TextNow                       	[ApiUtils] 	at com.enflick.android.TextNow.persistence.repository.LegalAndPrivacyRepositoryImpl.requestDeviceLocation(LegalAndPrivacyRepository.kt:1)
+2021-12-17 17:38:19	DEBUG	TextNow                       	[ApiUtils] 	at d6.u0.run(AuthorizationActivityViewModel.kt:3)
+2021-12-17 17:38:19	DEBUG	TextNow                       	[ApiUtils] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+2021-12-17 17:38:19	DEBUG	TextNow                       	[ApiUtils] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+2021-12-17 17:38:19	DEBUG	TextNow                       	[ApiUtils] 	at java.lang.Thread.run(Thread.java:919)
+2021-12-17 17:38:19	DEBUG	TextNow                       	[AbstractHttpCommand] Setting the http client
+2021-12-17 17:38:19	DEBUG	TextNow                       	[AbstractHttpCommand] DeviceLocationGet URI: https://api.textnow.me/api2.0/location?client_type=TN_ANDROID&signature=d5de0d26d5af4101b4774a5a1a674e0b
+2021-12-17 17:38:19	DEBUG	TextNow                       	[LeanplumInitializeMonitor] Leanplum SDK state: InitializationPhase.NOT_INITIALIZED -> InitializationPhase.SDK_INITIALIZED bitwise 3
+2021-12-17 17:38:19	VERBOSE	TextNow                       	[DeviceInformation] Installer: com.android.vending
+2021-12-17 17:38:19	VERBOSE	TextNow                       	[DeviceInformation] Device: TCL 5004S (5004S)
+2021-12-17 17:38:19	VERBOSE	TextNow                       	[DeviceInformation] ABIs: armeabi-v7a, armeabi
+2021-12-17 17:38:19	DEBUG	TextNow                       	[TNUserDevicePrefs] Saving attribute: package_installer with value com.android.vending
+2021-12-17 17:38:19	DEBUG	TextNow                       	[LeanPlumHelper] Starting LeanPlumReportingRunnable for: attribute
+2021-12-17 17:38:19	DEBUG	TextNow                       	[UsPrivacyStringGenerator] UsPrivacyStringGenerator - saveToSharedPreferences
+2021-12-17 17:38:19	DEBUG	TextNow                       	[TNPassCodeActivity] Not a passcode protected activity: AuthorizationActivity
+2021-12-17 17:38:19	DEBUG	TextNow                       	[AuthorizationActivity] onStart
+2021-12-17 17:38:19	DEBUG	TextNow                       	[TextNowApp] End Asynchronous Application Initialization. Execution time in background: 749
+2021-12-17 17:38:19	INFO	TextNow                       	[EventStream] Initializing EventStream, getting the current buffer size from the DB
+2021-12-17 17:38:19	DEBUG	TextNow                       	[AppStartup] App startup time: 1916 ms
+2021-12-17 17:38:19	DEBUG	TextNow                       	[AppStartup] SYNC startup time: 1166 ms
+2021-12-17 17:38:19	DEBUG	TextNow                       	[AppStartup] LP startup time: 90 ms
+2021-12-17 17:38:19	DEBUG	TextNow                       	[LeanPlumReportingRunnable] Saved attribute(s) with: 1 key-value pair(s)
+2021-12-17 17:38:19	VERBOSE	TextNow                       	[GenericEventTracker] Tracking generic events: {EventType=StartupTime, Route=StartupReporter, Interval-Total=1916, Interval-AppSync=1166, Interval-AppAsync=749, Interval-Leanplum=90, Interval-TNSettingsInfo=53, Interval-Embrace=140}
+2021-12-17 17:38:19	DEBUG	TextNow                       	[AdjustEventTracking] Adjust event tracked: SESSION_START
+2021-12-17 17:38:19	DEBUG	TextNow                       	[TextNowApp] AdjustLifecycleCallbacks: Activity - authorization.ui.AuthorizationActivity@12bc1e8 - onResume
+2021-12-17 17:38:19	DEBUG	TextNow                       	[AuthorizationActivity] onResume
+2021-12-17 17:38:19	DEBUG	TextNow                       	[AppStartup] AuthorizationActivity startup time: onCreate = 579 ms; total = 736 ms
+2021-12-17 17:38:19	DEBUG	TextNow                       	[PurchaseController] on resume - schedule query for purchases job
+2021-12-17 17:38:19	VERBOSE	TextNow                       	[GenericEventTracker] Tracking generic events: {EventType=StartupTime, Route=AuthorizationActivity, Interval-Total=736, Interval-OnCreate=579}
+2021-12-17 17:38:19	VERBOSE	TextNow                       	[AppBehaviourEventTracker] Tracking AppLifecycleChanged event: AppLifecycleChanged{app_lifecycle=APP_LIFECYCLE_FOREGROUNDED}
+2021-12-17 17:38:19	DEBUG	TextNow                       	[Firebase] FirebaseApp successfully initialized
+2021-12-17 17:38:19	DEBUG	TextNow                       	[Firebase] FirebaseInstallations successfully initialized
+2021-12-17 17:38:19	INFO	TextNow                       	[TNEventStreaming] Created com_textnow_android_events_TNEventStreaming_buffer_db database
+2021-12-17 17:38:19	DEBUG	TextNow                       	[TextNowApi] PerimeterX Manager started with appID: PXK56WkC4O
+2021-12-17 17:38:19	INFO	TextNow                       	[TNEventStreaming] Opened com_textnow_android_events_TNEventStreaming_buffer_db database
+2021-12-17 17:38:19	INFO	TextNow                       	[EventStream] Scheduling first flush of event buffer in 5min
+2021-12-17 17:38:19	DEBUG	TextNow                       	[UploadEventsWorkerScheduler] Checking if there's currently an UploadEventWorker running
+2021-12-17 17:38:19	INFO	TextNow                       	[UploadEventsWorkerScheduler] Enqueuing upload events job (runNow = false)
+2021-12-17 17:38:19	DEBUG	TextNow                       	[KinesisRecorderRunnableBase] KinesisFirehose recorder initialized.
+2021-12-17 17:38:19	DEBUG	TextNow                       	[SaveSingleRecordRunnableBase] sessions-prod Record saved: {"created_at":"2021-12-17 22:38:19","event_source":"client","username":"","client_type":"TN_ANDROID","client_version":"21.47.0.0","phone_num":""}
+2021-12-17 17:38:19	DEBUG	TextNow                       	[NetworkConnectivityReceiver] Network state changed. Connected: true
+2021-12-17 17:38:19	DEBUG	TextNow                       	[NetworkConnectivityReceiver] onMobileDataConnected: false
+2021-12-17 17:38:19	DEBUG	TextNow                       	[NetworkConnectivityReceiver] Network state changed. Connected: true
+2021-12-17 17:38:19	DEBUG	TextNow                       	[NetworkConnectivityReceiver] onMobileDataConnected: false
+2021-12-17 17:38:19	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:19	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:19	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:19	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:19	DEBUG	TextNow                       	[Firebase] FirebaseAnalytics successfully initialized
+2021-12-17 17:38:19	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:19	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:19	DEBUG	TextNow                       	[IntegrityService] Loading nonce
+2021-12-17 17:38:19	DEBUG	TextNow                       	[PurchaseController] billing setup finished - code: 0, message:
+2021-12-17 17:38:19	DEBUG	TextNow                       	[PurchaseController] query for purchases...
+2021-12-17 17:38:19	DEBUG	TextNow                       	[TextNowApi] PerimeterX Intercepting request. Should add headers: false
+2021-12-17 17:38:19	DEBUG	TextNow                       	[me.textnow.api.android.TextNowApiCommon] --> POST https://rpc.textnow.me/api.textnow.integrity.legacy.IntegrityService/GenerateAndroidIntegritySessionNonce (-1-byte body)
+2021-12-17 17:38:20	DEBUG	TextNow                       	[PurchaseController] query for purchases complete
+2021-12-17 17:38:20	DEBUG	TextNow                       	[PurchaseController] query for purchases...
+2021-12-17 17:38:20	DEBUG	TextNow                       	[PurchaseController] query for purchases complete
+2021-12-17 17:38:20	DEBUG	TextNow                       	[AbstractHttpCommand] DeviceLocationGet Request took 1267ms
+2021-12-17 17:38:20	VERBOSE	TextNow                       	[AbstractHttpCommand] Request to: api.textnow.me 
+2021-12-17 17:38:20	VERBOSE	TextNow                       	[AbstractHttpCommand] Status: 200
+2021-12-17 17:38:20	INFO	TextNow                       	[AbstractHttpCommand] DeviceLocationGet request made
+2021-12-17 17:38:20	VERBOSE	TextNow                       	[GenericEventTracker] Tracking generic events: {EventType=WorkerState, Route=PushIntentServiceImpl, State=Started}
+2021-12-17 17:38:20	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:20	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:20	INFO	TextNow                       	[PushIntentServiceImpl] Got a push token from onNewToken - User is signed in false
+2021-12-17 17:38:20	DEBUG	TextNow                       	[me.textnow.api.android.TextNowApiCommon] <-- 200 https://rpc.textnow.me/api.textnow.integrity.legacy.IntegrityService/GenerateAndroidIntegritySessionNonce (585ms, unknown-length body)
+2021-12-17 17:38:20	DEBUG	TextNow                       	[IntegrityService] Loading safety net attestation
+2021-12-17 17:38:21	DEBUG	TextNow                       	[TextNowApi] PerimeterX Manager ready called back
+2021-12-17 17:38:21	DEBUG	TextNow                       	[LeanplumMetadataValidator] There are 8 actions in Leanplum Metadata
+2021-12-17 17:38:21	DEBUG	TextNow                       	[LeanplumMetadataValidator] There are no Leanplum campaigns which can be triggered by event OnboardingStarted
+2021-12-17 17:38:21	DEBUG	TextNow                       	[LeanplumUtils] Updating LP variables
+2021-12-17 17:38:21	DEBUG	TextNow                       	[AppLaunchConfiguration] Application Launch Configuration Offline cache TTL in Secs 86400
+2021-12-17 17:38:21	DEBUG	TextNow                       	[LeanplumInitializeMonitor] Leanplum SDK state: InitializationPhase.SDK_INITIALIZED -> InitializationPhase.SERVER_DATA_READY bitwise 7
+2021-12-17 17:38:21	VERBOSE	TextNow                       	[GenericEventTracker] Tracking generic events: {EventType=LeanplumStartupTime, Route=f2, Interval-Leanplum-Component-Initialization=216, Interval-Leanplum-Full-Initialization-Data-Ready=2921}
+2021-12-17 17:38:21	DEBUG	TextNow                       	[AppStartup] LP component init time: 216 ms
+2021-12-17 17:38:21	DEBUG	TextNow                       	[AppStartup] LP full init data ready time: 2921 ms
+2021-12-17 17:38:21	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:21	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:21	DEBUG	TextNow                       	[LeanplumVariables] Leanplum finished loading, and we're going to save the LP preferences to local storage.
+2021-12-17 17:38:21	INFO	TextNow                       	[TNLPVar] Just fyi. The following variable isn't candidate for caching Advertisements.GAM.keywords
+2021-12-17 17:38:21	INFO	TextNow                       	[TNLPVar] Just fyi. The following variable isn't candidate for caching Calling.whitelist_10digit_mccs
+2021-12-17 17:38:21	INFO	TextNow                       	[TNLPVar] Just fyi. The following variable isn't candidate for caching Advertisements.MoPub.keywords
+2021-12-17 17:38:21	DEBUG	TextNow                       	[LeanplumInitializeMonitor] Leanplum SDK state: InitializationPhase.SERVER_DATA_READY -> InitializationPhase.OFFLINE_DATA_REFRESHED bitwise 23
+2021-12-17 17:38:22	VERBOSE	TextNow                       	[GenericEventTracker] Tracking generic events: {UITracking_Category=Registration, UITracking_Label=Login Button, UITracking_Action=Click}
+2021-12-17 17:38:22	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:22	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:25	VERBOSE	TextNow                       	[GenericEventTracker] Tracking generic events: {UITracking_Category=Login, UITracking_Value=Email, UITracking_Label=Continue With, UITracking_Action=Click}
+2021-12-17 17:38:25	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:25	DEBUG	TextNow                       	[SmartLockManager] Credentials requested
+2021-12-17 17:38:25	VERBOSE	TextNow                       	[GenericEventTracker] Tracking generic events: {UITracking_Category=Login, UITracking_Label=Email Field, UITracking_Action=Type}
+2021-12-17 17:38:25	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:25	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:25	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:25	DEBUG	TextNow                       	[TextNowApp] AdjustLifecycleCallbacks: Activity - authorization.ui.AuthorizationActivity@12bc1e8 - onPause
+2021-12-17 17:38:25	WARN	TextNow                       	[Preferences] Failed to retrieve encrypted value
+2021-12-17 17:38:25	DEBUG	TextNow                       	[AuthorizationActivityViewModel] AuthorizationActivityViewModel#requestSignIn
+2021-12-17 17:38:25	DEBUG	TextNow                       	[IntegrityService] Loading nonce
+2021-12-17 17:38:25	DEBUG	TextNow                       	[TextNowApi] PerimeterX Intercepting request. Should add headers: false
+2021-12-17 17:38:25	DEBUG	TextNow                       	[me.textnow.api.android.TextNowApiCommon] --> POST https://rpc.textnow.me/api.textnow.integrity.legacy.IntegrityService/GenerateAndroidIntegritySessionNonce (-1-byte body)
+2021-12-17 17:38:25	DEBUG	TextNow                       	[me.textnow.api.android.TextNowApiCommon] <-- 200 https://rpc.textnow.me/api.textnow.integrity.legacy.IntegrityService/GenerateAndroidIntegritySessionNonce (192ms, unknown-length body)
+2021-12-17 17:38:25	DEBUG	TextNow                       	[IntegrityService] nonce error: java.io.IOException: gRPC transport failure (HTTP status=200, grpc-status=null, grpc-message=null)
+2021-12-17 17:38:26	DEBUG	TextNow                       	[PurchaseController] on pause - cancel pending purchase query, if any
+2021-12-17 17:38:27	DEBUG	TextNow                       	[IntegrityService] Loading nonce
+2021-12-17 17:38:27	DEBUG	TextNow                       	[TextNowApi] PerimeterX Intercepting request. Should add headers: false
+2021-12-17 17:38:27	DEBUG	TextNow                       	[me.textnow.api.android.TextNowApiCommon] --> POST https://rpc.textnow.me/api.textnow.integrity.legacy.IntegrityService/GenerateAndroidIntegritySessionNonce (-1-byte body)
+2021-12-17 17:38:28	DEBUG	TextNow                       	[me.textnow.api.android.TextNowApiCommon] <-- 200 https://rpc.textnow.me/api.textnow.integrity.legacy.IntegrityService/GenerateAndroidIntegritySessionNonce (1161ms, unknown-length body)
+2021-12-17 17:38:28	DEBUG	TextNow                       	[IntegrityService] Loading safety net attestation
+2021-12-17 17:38:28	DEBUG	TextNow                       	[IntegrityService] Loading integrity token
+2021-12-17 17:38:28	DEBUG	TextNow                       	[TextNowApi] PerimeterX Intercepting request. Should add headers: false
+2021-12-17 17:38:28	DEBUG	TextNow                       	[me.textnow.api.android.TextNowApiCommon] --> POST https://rpc.textnow.me/api.textnow.integrity.legacy.IntegrityService/GenerateAndroidIntegritySession (-1-byte body)
+2021-12-17 17:38:28	DEBUG	TextNow                       	[me.textnow.api.android.TextNowApiCommon] <-- 200 https://rpc.textnow.me/api.textnow.integrity.legacy.IntegrityService/GenerateAndroidIntegritySession (190ms, unknown-length body)
+2021-12-17 17:38:28	DEBUG	TextNow                       	[IntegrityService] integrity token error: java.io.IOException: gRPC transport failure (HTTP status=200, grpc-status=null, grpc-message=null)
+2021-12-17 17:38:29	DEBUG	TextNow                       	[TextNowApp] AdjustLifecycleCallbacks: Activity - authorization.ui.AuthorizationActivity@12bc1e8 - onResume
+2021-12-17 17:38:29	DEBUG	TextNow                       	[AuthorizationActivity] onResume
+2021-12-17 17:38:29	DEBUG	TextNow                       	[PurchaseController] on resume - schedule query for purchases job
+2021-12-17 17:38:29	DEBUG	TextNow                       	[IntegrityService] Loading integrity token
+2021-12-17 17:38:29	DEBUG	TextNow                       	[TextNowApi] PerimeterX Intercepting request. Should add headers: false
+2021-12-17 17:38:29	DEBUG	TextNow                       	[me.textnow.api.android.TextNowApiCommon] --> POST https://rpc.textnow.me/api.textnow.integrity.legacy.IntegrityService/GenerateAndroidIntegritySession (-1-byte body)
+2021-12-17 17:38:30	DEBUG	TextNow                       	[TextNowApi] PerimeterX New headers called back
+2021-12-17 17:38:30	DEBUG	TextNow                       	[me.textnow.api.android.TextNowApiCommon] <-- 200 https://rpc.textnow.me/api.textnow.integrity.legacy.IntegrityService/GenerateAndroidIntegritySession (597ms, unknown-length body)
+2021-12-17 17:38:30	DEBUG	TextNow                       	[IntegrityService] Loading integrity token
+2021-12-17 17:38:30	DEBUG	TextNow                       	[TextNowApi] PerimeterX Intercepting request. Should add headers: false
+2021-12-17 17:38:30	DEBUG	TextNow                       	[me.textnow.api.android.TextNowApiCommon] --> POST https://rpc.textnow.me/api.textnow.integrity.legacy.IntegrityService/GenerateAndroidIntegritySession (-1-byte body)
+2021-12-17 17:38:30	DEBUG	TextNow                       	[me.textnow.api.android.TextNowApiCommon] <-- 200 https://rpc.textnow.me/api.textnow.integrity.legacy.IntegrityService/GenerateAndroidIntegritySession (84ms, unknown-length body)
+2021-12-17 17:38:30	DEBUG	TextNow                       	[PurchaseController] query for purchases...
+2021-12-17 17:38:30	DEBUG	TextNow                       	[PurchaseController] query for purchases complete
+2021-12-17 17:38:30	DEBUG	TextNow                       	[TextNowApi] PerimeterX Intercepting request. Should add headers: true
+2021-12-17 17:38:30	DEBUG	TextNow                       	[me.textnow.api.android.TextNowApiCommon] --> POST https://api.textnow.me/api2.0/sessions?client_type=TN_ANDROID&signature=7698984174f93a6cd57be77988dc9877 http/1.1 (112-byte body)
+2021-12-17 17:38:31	DEBUG	TextNow                       	[me.textnow.api.android.TextNowApiCommon] <-- 400 Bad Request https://api.textnow.me/api2.0/sessions?client_type=TN_ANDROID&signature=7698984174f93a6cd57be77988dc9877 (282ms, unknown-length body)
+2021-12-17 17:38:31	ERROR	TextNow                       	[TextNowApi] 
+2021-12-17 17:38:31	ERROR	TextNow                       	[TextNowApi] retrofit2.HttpException: HTTP 400 Bad Request
+2021-12-17 17:38:31	ERROR	TextNow                       	[TextNowApi] 	at mz.d.b(KotlinExtensions.kt:12)
+2021-12-17 17:38:31	ERROR	TextNow                       	[TextNowApi] 	at retrofit2.g$a.onResponse(OkHttpCall.java:2)
+2021-12-17 17:38:31	ERROR	TextNow                       	[TextNowApi] 	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:7)
+2021-12-17 17:38:31	ERROR	TextNow                       	[TextNowApi] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+2021-12-17 17:38:31	ERROR	TextNow                       	[TextNowApi] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+2021-12-17 17:38:31	ERROR	TextNow                       	[TextNowApi] 	at java.lang.Thread.run(Thread.java:919)
+2021-12-17 17:38:31	ERROR	TextNow                       	[SignInRequestModel] Error in SessionModel initialization: null cannot be cast to non-null type com.enflick.android.api.responsemodel.Session
+2021-12-17 17:38:31	VERBOSE	TextNow                       	[GenericEventTracker] Tracking generic events: {UITracking_Category=Login, UITracking_Value=The account associated with katelynrogers508@gmail.com was created using Facebook Login., UITracking_Label=Error, UITracking_Action=System}
+2021-12-17 17:38:31	VERBOSE	TextNow                       	[GenericEventTracker] Tracking generic events: {UITracking_Category=Registration, UITracking_Value=The account associated with katelynrogers508@gmail.com was created using Facebook Login., UITracking_Label=Error, UITracking_Action=System}
+2021-12-17 17:38:31	DEBUG	TextNow                       	[IntegritySessionRepository] Using existing token
+2021-12-17 17:38:31	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:31	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:31	DEBUG	TextNow                       	[OnboardingEventTracker] Login Error Tracked, identityProvider: EMAIL, integrityStatus: VALID, errorCode: ACCOUNT_REGISTERED_WITH_FACEBOOK
+2021-12-17 17:38:31	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:31	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:31	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:31	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:35	DEBUG	TextNow                       	[AuthorizationActivityViewModel] AuthorizationActivityViewModel#requestFacebookConnect
+2021-12-17 17:38:35	DEBUG	TextNow                       	[TextNowApp] AdjustLifecycleCallbacks: Activity - authorization.ui.AuthorizationActivity@12bc1e8 - onPause
+2021-12-17 17:38:35	DEBUG	TextNow                       	[TextNowApp] AdjustLifecycleCallbacks: Activity - com.facebook.FacebookActivity@40d0144 - onResume
+2021-12-17 17:38:37	DEBUG	TextNow                       	[TextNowApp] AdjustLifecycleCallbacks: Activity - com.facebook.FacebookActivity@40d0144 - onPause
+2021-12-17 17:38:38	DEBUG	TextNow                       	[PurchaseController] on pause - cancel pending purchase query, if any
+2021-12-17 17:38:43	VERBOSE	TextNow                       	[AppBehaviourEventTracker] Tracking AppLifecycleChanged event: AppLifecycleChanged{app_lifecycle=APP_LIFECYCLE_BACKGROUNDED}
+2021-12-17 17:38:43	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:43	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:53	ERROR	TextNow                       	[AuthorizationActivity] Error onActivityResult contains invalid parameters
+2021-12-17 17:38:53	DEBUG	TextNow                       	[AuthorizationActivityViewModel] AuthorizationActivityViewModel#handleActivityResult
+2021-12-17 17:38:53	DEBUG	TextNow                       	[AuthorizationActivityViewModel] AuthorizationActivityViewModel#handleFacebookLoginFailure
+2021-12-17 17:38:53	INFO	TextNow                       	[SmartLockManager] Result for unknown request code: 64206
+2021-12-17 17:38:53	DEBUG	TextNow                       	[TNPassCodeActivity] Not a passcode protected activity: AuthorizationActivity
+2021-12-17 17:38:53	DEBUG	TextNow                       	[AuthorizationActivity] onStart
+2021-12-17 17:38:53	VERBOSE	TextNow                       	[AppBehaviourEventTracker] Tracking AppLifecycleChanged event: AppLifecycleChanged{app_lifecycle=APP_LIFECYCLE_FOREGROUNDED}
+2021-12-17 17:38:53	DEBUG	TextNow                       	[TextNowApp] AdjustLifecycleCallbacks: Activity - authorization.ui.AuthorizationActivity@12bc1e8 - onResume
+2021-12-17 17:38:53	DEBUG	TextNow                       	[AuthorizationActivity] onResume
+2021-12-17 17:38:53	DEBUG	TextNow                       	[PurchaseController] on resume - schedule query for purchases job
+2021-12-17 17:38:53	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:53	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:54	DEBUG	TextNow                       	[PurchaseController] query for purchases...
+2021-12-17 17:38:54	DEBUG	TextNow                       	[PurchaseController] query for purchases complete
+2021-12-17 17:38:55	DEBUG	TextNow                       	[TextNowApi] PerimeterX New headers called back
+2021-12-17 17:38:56	DEBUG	TextNow                       	[AuthorizationActivityViewModel] AuthorizationActivityViewModel#requestSignIn
+2021-12-17 17:38:56	VERBOSE	TextNow                       	[GenericEventTracker] Tracking generic events: {UITracking_Category=Login, UITracking_Label=Login Button, UITracking_Action=Click}
+2021-12-17 17:38:56	DEBUG	TextNow                       	[IntegritySessionRepository] Using existing token
+2021-12-17 17:38:56	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:56	INFO	TextNow                       	[FirebaseInstallationsID] Got a push token
+2021-12-17 17:38:59	DEBUG	TextNow                       	[TextNowApi] PerimeterX Intercepting request. Should add headers: true
+2021-12-17 17:38:59	DEBUG	TextNow                       	[me.textnow.api.android.TextNowApiCommon] --> POST https://api.textnow.me/api2.0/sessions?client_type=TN_ANDROID&signature=7698984174f93a6cd57be77988dc9877 http/1.1 (112-byte body)
+2021-12-17 17:38:59	DEBUG	TextNow                       	[me.textnow.api.android.TextNowApiCommon] <-- 400 Bad Request https://api.textnow.me/api2.0/sessions?client_type=TN_ANDROID&signature=7698984174f93a6cd57be77988dc9877 (558ms, unknown-length body)
+2021-12-17 17:38:59	ERROR	TextNow                       	[TextNowApi] 
+2021-12-17 17:38:59	ERROR	TextNow                       	[TextNowApi] retrofit2.HttpException: HTTP 400 Bad Request
